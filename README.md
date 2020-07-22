@@ -36,7 +36,8 @@ As mentioned above admin homepage has navigation links to pages like Display
 Available Books, Add a book to the database, Modify a book’s condition, and Get issued
 book list.
 Snapshot -
-![Admin Home Page](/utils/Home_page.jpg)
+
+![Admin Home Page](/utils/Home_page.JPG)
 
 
 ## 2. Student Homepage
@@ -48,6 +49,8 @@ Snapshot-
 A page like Display available books when accessed without login the system generates a
 pop-up and redirects the user to the Login Page-
 
+![Student Home Page](/utils/Student_home.JPG)
+
 
 ## 3. Homepage when not logged in
 
@@ -55,6 +58,8 @@ pop-up and redirects the user to the Login Page-
 When a user is not logged in the website won’t allow certain pages to open and
 additionally, there will be navigations to login and logout pages.
 Snapshot-
+
+![General Home Page](/utils/General_home.JPG)
 
 
 ## Login And Signup Page
@@ -66,6 +71,8 @@ user is redirected to its respective Home Pages (The home page displays the user
 logged in, this is performed using SESSION).
 Login Page -
 
+![Login Page](/utils/Login.JPG)
+
 
 The signup Page
 The signup page has only two fields, for now, validation for username is that it should be longer
@@ -74,15 +81,20 @@ Must contain a capital letter, must contain a lowercase letter, must contain a n
 special character for security purpose.
 Different error messages are printed based upon the violation of validation specified above,
 
+![Signup Page](/utils/Signup_violation.JPG)
+
 
 ## Display Available books Page
 
 This page retrieves and displays a list of available books from the database, it excludes the
 books whose condition is marked torn/lost. This is done by simple NOT IN sql query.
 
+![Display Books Page](/utils/Display_books.JPG)
+
 ## Display Issued books Page
 
 This page is admin access only. It shows the issued books and the username of the issuer.
+
 
 
 ## Modify book condition Page
@@ -90,11 +102,15 @@ This page is admin access only. It shows the issued books and the username of th
 This page allows the admin to change the condition of the book it has two fields id and new
 condition.
 
+![Modify book Page](/utils/modify_book.JPG)
+
 
 ## Add book condition Page
 
 This page is admin-access only, It allows the admin to add a book to the database. This has 10
 fields as shown in the figure (all are required and that condition is validated).
+
+![Add book Page](/utils/Add_book.JPG)
 
 
 ## Database Structure
