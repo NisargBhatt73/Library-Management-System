@@ -36,6 +36,7 @@ As mentioned above admin homepage has navigation links to pages like Display
 Available Books, Add a book to the database, Modify a book’s condition, and Get issued
 book list.
 Snapshot -
+![Admin Home Page](/utils/Home_page.jpg)
 
 
 ## 2. Student Homepage
